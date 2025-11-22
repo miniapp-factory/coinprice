@@ -1,0 +1,72 @@
+
+# 2025-11-22 03:52:50.061552
++Code the following app
++```
++Build a Chainlink price feed dashboard for BTC, ETH, and SOL.
++Architecture:
++Server-side API route: app/api/prices/[symbol]/route.ts handles RPC calls
++Client component: components/price-dashboard.tsx displays prices and graphs
++Shared config: lib/feeds.ts exports contract addresses
++RPC endpoint:
++Use https://ethereum-rpc.publicnode.com (free, no auth)
++Method selector: 0x50d25bcd for Chainlink's latestRoundData()
++Handle both full (322 chars) and truncated (66 chars) hex responses
++Contract addresses:
++BTC: 0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c
++ETH: 0x5f4eC3Df9cbd43714FE2740f5E3616155C5b8419
++SOL: 0x4ffC43a60e009B551865A93d232E33Fce9f01507
++Features:
++API route: fetch price from RPC, parse hex response, return JSON {price: number, symbol: string}
++Dashboard: display prices with $ prefix, update every 30 seconds
++Graph: plot price history on canvas with 10% padding (top/bottom and price range)
++Moving dot: green dot with glow at latest price point (rightmost)
++Hover/tap: yellow crosshair and price tooltip on hover (desktop) or tap (mobile)
++localStorage: persist history, handle parsing errors gracefully
++Requirements:
++TypeScript strict mode compliant (no any types)
++Proper error handling (no crashes on API failures)
++Mobile-friendly touch events
++Clean code with no unused variables
++Build this step by step, starting with the API route, then the dashboard component.
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-11-22 03:52:50.062386
++Code the following app
++```
++Build a Chainlink price feed dashboard for BTC, ETH, and SOL.
++Architecture:
++Server-side API route: app/api/prices/[symbol]/route.ts handles RPC calls
++Client component: components/price-dashboard.tsx displays prices and graphs
++Shared config: lib/feeds.ts exports contract addresses
++RPC endpoint:
++Use https://ethereum-rpc.publicnode.com (free, no auth)
++Method selector: 0x50d25bcd for Chainlink's latestRoundData()
++Handle both full (322 chars) and truncated (66 chars) hex responses
++Contract addresses:
++BTC: 0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c
++ETH: 0x5f4eC3Df9cbd43714FE2740f5E3616155C5b8419
++SOL: 0x4ffC43a60e009B551865A93d232E33Fce9f01507
++Features:
++API route: fetch price from RPC, parse hex response, return JSON {price: number, symbol: string}
++Dashboard: display prices with $ prefix, update every 30 seconds
++Graph: plot price history on canvas with 10% padding (top/bottom and price range)
++Moving dot: green dot with glow at latest price point (rightmost)
++Hover/tap: yellow crosshair and price tooltip on hover (desktop) or tap (mobile)
++localStorage: persist history, handle parsing errors gracefully
++Requirements:
++TypeScript strict mode compliant (no any types)
++Proper error handling (no crashes on API failures)
++Mobile-friendly touch events
++Clean code with no unused variables
++Build this step by step, starting with the API route, then the dashboard component.
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-11-22 03:53:13.336439
++apply changes
+
+# 2025-11-22 03:53:13.336995
++apply changes
