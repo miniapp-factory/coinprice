@@ -1,6 +1,6 @@
 import { description, title } from "@/lib/metadata";
 import { generateMetadata } from "@/lib/farcaster-embed";
-import PriceDashboard from "@/components/price-dashboard";
+import PriceDashboard from "../components/price-dashboard";
 
 export { generateMetadata };
 
